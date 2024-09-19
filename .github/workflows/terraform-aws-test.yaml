@@ -23,7 +23,7 @@ jobs:
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::381491937821:role/posmack-gitactions-pipeline-role 
+          role-to-assume: "arn:aws:iam::381491937821:role/posmack-gitactions-pipeline-role" 
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: ${{ env.AWS_REGION }}
       # Hello from AWS: WhoAmI
