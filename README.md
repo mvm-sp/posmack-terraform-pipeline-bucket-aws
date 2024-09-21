@@ -7,7 +7,7 @@ Nesse repositório você encontrará conteúdo construído a partir deste roteir
 No Terraform, você começaria definindo o provider AWS e a configuração para criar um bucket S3 com versionamento habilitado. Um exemplo básico pode ser o seguinte:
 
 ````hcl
-Copy code
+
 provider "aws" {
   region = "us-east-1"
 }
@@ -135,7 +135,7 @@ Essa tabela pode ser usada, por exemplo, como tabela de bloqueio para o Terrafor
 No GitHub Actions, você pode configurar um workflow que assume a Role que você configurou na AWS. Um exemplo básico de workflow no GitHub Actions:
 
 ```yaml
-Copy code
+
 name: Deploy to AWS
 
 on:
