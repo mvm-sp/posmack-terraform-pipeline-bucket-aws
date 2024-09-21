@@ -2,8 +2,7 @@ name: "Pipeline DEV"
 
 on:
   push:
-    branches:
-      - dev
+    branches: [ dev ]
 
 permissions:
   id-token: write
