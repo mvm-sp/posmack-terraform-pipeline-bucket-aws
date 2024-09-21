@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   terraform:
-    uses: ./.github/workflows/terraform.yml
+    uses: ./.github/workflows/terraform.yaml
     with:
       environment: dev
       aws-region: "us-east-2"
